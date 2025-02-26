@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economics Club - Blog</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Reset some default styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Example font */
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Light background */
+        }
+
+        /* Navigation bar */
+        .navbar {
+            background-color: #333; /* Dark background */
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar-brand {
+            color: white;
+            font-size: 1.5rem;
+            margin-left: 20px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-brand img {
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .navbar-nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .nav-item {
+            margin-right: 20px;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .nav-link:hover {
+            color: #ddd;
+        }
+
+        /* Container adjustments for fixed nav */
+        .container {
+            max-width: 960px;
+            margin: 80px auto 20px; /* Adjusted margin-top to account for fixed navbar */
+            padding: 20px;
+        }
+
+        /* Blog header */
+        .blog-header h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+
+        .blog-header p {
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+
+        /* Blog post */
+        .blog-post {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post h2 {
+            font-size: 1.8em;
+            margin-bottom: 5px;
+        }
+
+        .blog-post .post-meta {
+            color: #6c757d;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+
+        .blog-post p {
+            color: #343a40;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar-brand">Economics Club</a>
+        <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="members.html">Members</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="blog-header">
+            <h1>Economics Blog</h1>
+            <p>Insights and discussions on economic topics from our members.</p>
+        </div>
+
+        <div class="blog-post">
+            <h2>Understanding Modern Monetary Theory</h2>
+            <div class="post-meta">
+                By Dr. Jane Smith • February 25, 2025
+            </div>
+            <p>Modern Monetary Theory (MMT) has gained significant attention in recent years, sparking debates among economists and policymakers alike. MMT challenges conventional wisdom by suggesting that a country with its own currency can always afford to spend...</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/main.js"></script>
+</body>
+</html>
